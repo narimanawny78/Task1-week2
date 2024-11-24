@@ -1,0 +1,243 @@
+body {
+    font-family: "Roboto", sans-serif; 
+  }
+
+  /* Start nav*/
+  /* btn radius and size */
+  /* End nav*/
+
+  /*Start landing*/
+  .landing .container {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .landing .text {
+    width: 60%;
+    margin-right: -7%;
+  }
+  .landing h1 {
+    font-size: 110px;
+    
+  }
+  .landing p{
+    width: 74%;
+    font-size: 20px;
+  }
+  .landing .btn {
+    width: 200px;
+    padding:20px;
+    text-align: center;
+    border-radius: 0;
+  }
+  .landing .stats-box {
+    margin: 0;
+    padding: 0;
+  }
+  .landing .stats-box h2{
+    font-size: 60px;
+  }
+  .landing-img{
+    width: 40%;
+  }
+  .landing-img .Image {
+    width: 90%;
+  }
+  .landing-img .Image .square{
+    margin-top: 10rem;
+    z-index: -1;
+    position: absolute;
+    top: -165px;
+    right: 67%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+  }
+  .landing-img .Image .arrow {
+    bottom: 0;
+    right: -55px;
+    width: 100px;
+  }
+  .landing .btn {
+    border-radius: 5px;
+  }
+  /*End landing*/
+  /*Start Servises*/
+  .services-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  .services-section h2 {
+    font-weight: bold;
+  }
+  .services-section hr {
+    width: 50px;
+    height: 3px;
+    border: none;
+    margin-right: 20px;
+    color: #000;
+    background-color: #000;
+  }
+  .service-card {
+    /* text-align: center; */
+    /* align-items: center; */
+  }
+  .service-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .service-card h5 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  .service-card p {
+    color: #6c757d;
+  }
+  /*End Servises*/
+  /*Start Design-Section*/
+  .design-section {
+    padding: 50px 0;
+  }
+  .design-section img {
+    /* border-radius: 8px; */
+    width: 90%;
+    /* height: auto; */
+  }
+  .design-section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .design-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  .links a {
+    text-decoration: none;
+    color: #000;
+  }
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .accordion-header {
+    font-weight: bold;
+  }
+  .btn-learn-more {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  .btn-learn-more:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  /*End Design-Section*/
+  /*Start Decore */
+  .decore h2{
+    font-size: 50px;
+  }
+  .decore .project-step img{
+    margin-top: -1.5rem;
+    width: 100%;
+  }
+  .decore .image-decore{
+    width: 20%;
+  }
+  .decore .image-decore-2 {
+    position: relative;
+    width: 20%;
+  }
+  .decore .image-decore-2::before {
+    content: '';
+    width: 1px;
+    height: 90px;
+    left: 23px;
+    top: 45px;
+    background-color: gainsboro;
+    position: absolute;
+  }
+  /* End Decore */
+/* Start About */
+.about i {
+  padding: 20px;
+  background-color: gainsboro;
+  
+}
+.about h1 {
+  font-size: 60px;
+}
+.about .image > .img-1 {
+  position: absolute;
+  left: -26rem;
+  margin-right: 50px;
+  height: 433px;
+}
+.about .image .img-2 {
+  height: 433px;
+  margin-left: 60px;
+}
+/* End About */
+/* Start Contact */
+.contact {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  /* background-color: #eee; */
+}
+.submit-btn{
+  /* display: flex; */
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  background-color: #fff;
+  position: absolute;
+  bottom: -30px;
+  left: 0px;
+  box-shadow:1px -2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.submit-btn input[type="text"]{
+  color: gainsboro;
+  border-color: transparent;
+  border-radius: 2px;
+  padding: 7px 25px ;
+  width: 70% ;
+}
+.submit-btn input[type="text"]:focus{
+  border: transparent;
+}
+.submit-btn input[type="submit"] {
+  background-color: #000;
+  color: #eee;
+  padding:  7px 25px;
+  border-color: transparent;
+}
+/* End Contact */
+/*Start footer*/
+.footer {
+  background-color: #000;
+  padding-top: 8rem;
+}
+.footer .copyright > span {
+  color: var(--green-color);
+}
+.footer .copyright div span {
+  color: var(--yellow-color);
+}
+.footer .contact-footer ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer i {
+  padding: 15px 7px;
+  background: #313131;
+  border: 1 solid #313131 ;
+  border-radius: 5px;
+}
+/*End footer*/
